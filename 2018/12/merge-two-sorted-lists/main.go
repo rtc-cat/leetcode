@@ -55,44 +55,31 @@ type ListNode struct {
  * }
  */
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
-	// 分别从l1,和l2开始,对比,将更小的那个数字合并到新的结果中
-	if l1 == nil {
-		return l2
-	}
-	if l2 == nil {
-		return l1
-	}
+	// result定义为空,从它的Next开始
+	// current用来操作当前节点,指定下一个节点地址
 	var (
 		result  = &ListNode{}
 		current = result
+		v       = 0
 	)
 
-	for {
-		if l1 == nil && l2 == nil {
-			break
-		}
-		if l1 == nil && l2 != nil {
-			current.Next = l2
-			current = current.Next
-			l2 = l2.Next
-			continue
-		}
-		if l1 != nil && l2 == nil {
-			current.Next = l1
-			current = current.Next
-			l1 = l1.Next
-			continue
-		}
+	for l1 != nil && l2 != nil {
 		// 对比大小
 		if l1.Val < l2.Val {
-			current.Next = l1
-			current = current.Next
+			v = l1.Val
 			l1 = l1.Next
 		} else {
-			current.Next = l2
-			current = current.Next
+			v = l2.Val
 			l2 = l2.Next
 		}
+		current.Next = &ListNode{Val: v}
+		current = current.Next
+	}
+	if l1 != nil {
+		current.Next = l1
+	}
+	if l2 != nil {
+		current.Next = l2
 	}
 	return result.Next
 }
