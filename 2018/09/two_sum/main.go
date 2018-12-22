@@ -15,8 +15,6 @@ func main() {
 }
 
 // 两次循环
-// 时间复杂度 O(n^2)
-// 空间复杂度 O(1)
 // 返回index
 func twoSum(nums []int, target int) []int {
 	// 特殊情况判断
