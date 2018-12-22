@@ -43,10 +43,8 @@ func twoSum(nums []int, target int) []int {
 }
 
 // 两次遍历hash
-// 空间复杂度 O(n)
-// 时间复杂度 O(n)
-// 第一次遍历,建立索引 O(n)
-// 第二次遍历,根据索引查询是否有匹配 O(1)
+// 第一次遍历,建立索引
+// 第二次遍历,根据索引查询是否有匹配
 func hashTwoSum(nums []int, target int) []int {
 	// ? 优化,初始化指定大小
 	m := make(map[int]int, len(nums))
@@ -68,22 +66,6 @@ func hashTwoSum(nums []int, target int) []int {
 // 上面算法的改进
 func hashOnceTwoSum(nums []int, target int) []int {
 	m := make(map[int]int, len(nums))
-	// 这个写的不好
-	// 一次遍历,建立索引的同时检查是否有匹配的元素
-	// for i := range nums {
-	// 	// ! 如果输入是 {3, 3}, 6,那么这里就有问题了
-	// 	// ! 建立索引需要增加一个重复判断
-	// 	if _, ok := m[nums[i]]; !ok {
-	// 		m[nums[i]] = i
-	// 	}
-	// 	// 检查是否有合适的
-	// 	v := target - nums[i]
-	// 	if index, ok := m[v]; ok && i != index {
-	// 		return []int{index, i}
-	// 	}
-	// }
-	// -----------------
-	//
 	for k, v := range nums {
 		// 检查map是否已有
 		if i, ok := m[v]; ok {
