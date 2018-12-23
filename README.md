@@ -9,3 +9,4 @@
 7. [合并两个有序链表](https://github.com/krizss/leetcode/blob/master/2018/12/merge-two-sorted-lists/main.go)
 8. [删除排序数组中的重复项](https://github.com/krizss/leetcode/blob/master/2018/12/remove-duplicates-from-sorted-array/main.go)
 9. [移除元素](https://github.com/krizss/leetcode/blob/master/2018/12/remove-element/main.go)
+10. [实现strStr](https://github.com/krizss/leetcode/blob/master/2018/12/implement-strstr/main.go)
