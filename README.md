@@ -10,3 +10,4 @@
 8. [删除排序数组中的重复项](https://github.com/krizss/leetcode/blob/master/2018/12/remove-duplicates-from-sorted-array/main.go)
 9. [移除元素](https://github.com/krizss/leetcode/blob/master/2018/12/remove-element/main.go)
 10. [实现strStr](https://github.com/krizss/leetcode/blob/master/2018/12/implement-strstr/main.go)
+11. [搜索插入位置](https://github.com/krizss/leetcode/blob/master/2018/12/search-insert-position/main.go)
