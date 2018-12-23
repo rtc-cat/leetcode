@@ -12,3 +12,4 @@
 10. [实现strStr](https://github.com/krizss/leetcode/blob/master/2018/12/implement-strstr/main.go)
 11. [搜索插入位置](https://github.com/krizss/leetcode/blob/master/2018/12/search-insert-position/main.go)
 12. [报数](https://github.com/krizss/leetcode/blob/master/2018/12/count-and-say/main.go)
+13. [最大子序和](https://github.com/krizss/leetcode/blob/master/2018/12/maximum-subarray/main.go)
