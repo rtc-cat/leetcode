@@ -50,7 +50,7 @@ func removeDuplicates(nums []int) int {
 	}
 	// i所在的位置是上一个数字开始的位置
 	// 如果在循环中遇到与i位置相等的,则不管
-	// 如果遇到下一个数字,则把位置交换,那么i位置一直都是下一个数字
+	// 如果遇到下一个数字,则把i的数字改为j的数字,那么i位置一直都是下一个数字
 	var i = 1
 	for j := 1; j < numsLength; j++ {
 		if nums[j] != nums[j-1] {
