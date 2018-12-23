@@ -11,3 +11,4 @@
 9. [移除元素](https://github.com/krizss/leetcode/blob/master/2018/12/remove-element/main.go)
 10. [实现strStr](https://github.com/krizss/leetcode/blob/master/2018/12/implement-strstr/main.go)
 11. [搜索插入位置](https://github.com/krizss/leetcode/blob/master/2018/12/search-insert-position/main.go)
+12. [报数](https://github.com/krizss/leetcode/blob/master/2018/12/count-and-say/main.go)
