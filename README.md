@@ -19,3 +19,4 @@
 17. [爬楼梯](https://github.com/krizss/leetcode/blob/master/2018/12/climbing-stairs/main.go)
 18. [删除排序链表中的重复元素](https://github.com/krizss/leetcode/blob/master/2018/12/remove-duplicates-from-sorted-list/main.go)
 19. [合并两个有序数组](https://github.com/krizss/leetcode/blob/master/2018/12/merge-sorted-array/main.go)
+20. [相同的树](https://github.com/krizss/leetcode/blob/master/2018/12/same-tree/main.go)
