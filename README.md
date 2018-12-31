@@ -16,3 +16,4 @@
 14. [最后一个单词的长度](https://github.com/krizss/leetcode/blob/master/2018/12/length-of-last-word/main.go)
 15. [二进制求和](https://github.com/krizss/leetcode/blob/master/2018/12/add-binary/main.go)
 16. [x的平方根](https://github.com/krizss/leetcode/blob/master/2018/12/sqrtx/main.go)
+17. [x的平方根](https://github.com/krizss/leetcode/blob/master/2018/12/climbing-stairs/main.go)
