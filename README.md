@@ -21,3 +21,4 @@
 19. [合并两个有序数组](https://github.com/krizss/leetcode/blob/master/2018/12/merge-sorted-array/main.go)
 20. [相同的树](https://github.com/krizss/leetcode/blob/master/2018/12/same-tree/main.go)
 21. [对称二叉树](https://github.com/krizss/leetcode/blob/master/2018/12/symmetric-tree/main.go)
+22. [二叉树的最大深度](https://github.com/krizss/leetcode/blob/master/2018/12/maximum-depth-of-binary-tree/main.go)
