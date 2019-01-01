@@ -50,6 +50,7 @@ type TreeNode struct {
  *     Right *TreeNode
  * }
  */
+// 递归
 func maxDepth(root *TreeNode) int {
 	if root == nil {
 		return 0
