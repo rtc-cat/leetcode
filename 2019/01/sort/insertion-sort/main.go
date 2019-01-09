@@ -25,17 +25,22 @@ func main() {
 }
 
 func insertionSort(arr []int) {
-	n := len(arr)
-	if n < 2 {
+	if len(arr) < 2 {
 		return
 	}
-	for i := 1; i < n; i++ {
-		for j := i - 1; j >= 0; j-- {
-			if arr[j] > arr[j+1] {
-				arr[j], arr[j+1] = arr[j+1], arr[j]
+	for i := 1; i < len(arr); i++ {
+		// i为准备插入的数字
+		value := arr[i]
+		// 从右边开始比较
+		j := i - 1
+		for ; j >= 0; j-- {
+			if value < arr[j] {
+				// 移动所有数据
+				arr[j+1] = arr[j]
 			} else {
 				break
 			}
 		}
+		arr[j+1] = value
 	}
 }
