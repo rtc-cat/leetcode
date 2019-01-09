@@ -24,11 +24,14 @@ func main() {
 
 // 冒泡排序
 func bubbleSort(arr []int) {
-	for i := 0; i < len(arr)-1; i++ {
-		for j := i; j < len(arr); j++ {
+	for count := 0; count < len(arr); count++ {
+		i, j := 0, 1
+		for j < len(arr) {
 			if arr[i] > arr[j] {
 				arr[i], arr[j] = arr[j], arr[i]
 			}
+			i++
+			j++
 		}
 	}
 }
