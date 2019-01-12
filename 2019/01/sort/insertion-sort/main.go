@@ -29,14 +29,11 @@ func insertionSort(arr []int) {
 		return
 	}
 	for i := 1; i < len(arr); i++ {
-		// i为准备插入的数字
-		value := arr[i]
-		// 从右边开始比较
+		value := arr[i] // 这个是准备插入的数字
 		j := i - 1
 		for ; j >= 0; j-- {
 			if value < arr[j] {
-				// 移动所有数据
-				arr[j+1] = arr[j]
+				arr[j+1] = arr[j] // 移动所有数据
 			} else {
 				break
 			}
