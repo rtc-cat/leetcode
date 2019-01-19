@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // 将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。
 
@@ -23,7 +21,7 @@ import (
 func main() {
 	a := []int{-10, -3, 0, 5, 9}
 	result := sortedArrayToBST(a)
-	fmt.Println(levelOrderBottom(result))
+	fmt.Println(result)
 }
 
 // TreeNode 树节点
@@ -41,55 +39,21 @@ type TreeNode struct {
  *     Right *TreeNode
  * }
  */
-// 因为是排序数组,所以中间位置的作为root,依次计算左右节点对应的index
 func sortedArrayToBST(nums []int) *TreeNode {
-	rootIndex := len(nums) / 2
-	rootNode := &TreeNode{Val: nums[rootIndex]}
-	var (
-		left        = rootIndex / 2
-		right       = (len(nums) - rootIndex) / 2
-		currentNode = rootNode
-	)
-	// 计算左节点和右节点
-	for {
-		if left == 1 {
-			break
-		}
-		currentNode.Left = &TreeNode{Val: nums[left]}
-		currentNode.Right = &TreeNode{Val: nums[right]}
+	if len(nums) == 0 {
+		return nil
 	}
-	return rootNode
+	return build(nums, 0, len(nums)-1)
 }
 
-func setCurrentNode(current *TreeNode, currentIndex, length int) *TreeNode {
-
-	return current
-}
-
-// 为了print
-func levelOrderBottom(root *TreeNode) [][]int {
-	var result = make([][]int, 0, 0)
-	result = insert(result, 1, root)
-	// 倒序
-	var reverse = make([][]int, 0, len(result))
-	for i := len(result) - 1; i >= 0; i-- {
-		reverse = append(reverse, result[i])
+func build(arr []int, low, high int) *TreeNode {
+	// 递归退出条件
+	if low > high {
+		return nil
 	}
-	return reverse
-}
-
-func insert(result [][]int, depth int, node *TreeNode) [][]int {
-	if node == nil {
-		return result
-	}
-	if len(result) < depth {
-		result = append(result, []int{})
-	}
-	arr := result[depth-1]
-	arr = append(arr, node.Val)
-	result[depth-1] = arr
-	next := depth + 1
-	result = insert(result, next, node.Left)
-	result = insert(result, next, node.Right)
-	return result
+	mid := (low + high) / 2
+	root := &TreeNode{Val: arr[mid]}
+	root.Left = build(arr, low, mid-1)
+	root.Right = build(arr, mid+1, high)
+	return root
 }

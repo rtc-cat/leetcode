@@ -25,3 +25,4 @@
 23. [二叉树的层次遍历 II](https://github.com/krizss/leetcode/blob/master/2019/01/binary-tree-level-order-traversal-ii/main.go)
 24. [将有序数组转为二叉搜索树](https://github.com/krizss/leetcode/blob/master/2019/01/convert-sorted-array-to-binary-search-tree/main.go)
 25. [排序算法](https://github.com/krizss/leetcode/blob/master/2019/01/sort/main.go)
+26. [平衡二叉树](https://github.com/krizss/leetcode/blob/master/2019/01/balanced-binary-tree/main.go)
