@@ -49,5 +49,31 @@ type TreeNode struct {
  * }
  */
 func isBalanced(root *TreeNode) bool {
+	// 递归退出条件 如果两边的节点的子节点都没有节点
+	if root == nil {
+		return true
+	}
+	// 如果两个子节点都是空
+	if root.Left == nil && root.Right == nil {
+		return true
+	}
+	// 如果两个都不为空
+	if root.Left != nil && root.Right != nil {
+		return isBalanced(root.Left) && isBalanced(root.Right)
+	}
+	// 这里就是一个为空,另一个不为空的情况
+	left := check(root.Left)
+	right := check(root.Right)
+	return left == right
+}
+
+// 判断节点是否有子节点
+func check(node *TreeNode) bool {
+	if node != nil {
+		if node.Left == nil && node.Right == nil {
+			return false
+		}
+		return true
+	}
 	return false
 }

@@ -26,3 +26,7 @@
 24. [将有序数组转为二叉搜索树](https://github.com/krizss/leetcode/blob/master/2019/01/convert-sorted-array-to-binary-search-tree/main.go)
 25. [排序算法](https://github.com/krizss/leetcode/blob/master/2019/01/sort/main.go)
 26. [平衡二叉树](https://github.com/krizss/leetcode/blob/master/2019/01/balanced-binary-tree/main.go)
+27. [131. 分割回文串](https://github.com/krizss/leetcode/blob/master/2019/03/palindrome-partitioning/main.go)
+28. [包含重复](https://github.com/krizss/leetcode/blob/master/2019/03/contains-duplicate/main.go)
+28. [2的幂](https://github.com/krizss/leetcode/blob/master/2019/03/power-of-two/main.go)
+28. [有效的字母异位词](https://github.com/krizss/leetcode/blob/master/2019/03/valid-anagram/main.go)
