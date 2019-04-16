@@ -34,3 +34,4 @@
 32. [389. 找不同](https://github.com/krizss/leetcode/blob/master/2019/04/find-the-difference/main.go)
 33. [415. 字符串相加](https://github.com/krizss/leetcode/blob/master/2019/04/add-strings/main.go)
 34. [111. 二叉树的最小深度](https://github.com/krizss/leetcode/blob/master/2019/04/minimum-depth-of-binary-tree/main.go)
+35. [112. 路径总和](https://github.com/krizss/leetcode/blob/master/2019/04/path-sum/main.go)
