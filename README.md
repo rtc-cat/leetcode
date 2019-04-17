@@ -40,3 +40,4 @@
 38. [121. 买卖股票的最佳时机](https://github.com/krizss/leetcode/blob/master/2019/04/best-time-to-buy-and-sell-stock/main.go)
 39. [122. 买卖股票的最佳时机 II](https://github.com/krizss/leetcode/blob/master/2019/04/best-time-to-buy-and-sell-stock-ii/main.go)
 40. [125. 验证回文串](https://github.com/krizss/leetcode/blob/master/2019/04/valid-palindrome/main.go)
+41. [136. 只出现一次的数字](https://github.com/krizss/leetcode/blob/master/2019/04/single-number/main.go)
