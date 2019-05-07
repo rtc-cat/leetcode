@@ -1,5 +1,7 @@
 # 个人的Leetcode记录,使用Golang
 
+> 通用树结构 . "github.com/krizss/leetcode/utils/treeutil"
+
 1. [1. 两数之和](https://github.com/krizss/leetcode/blob/master/2018/09/two-sum/main.go)
 2. [7. 整数翻转](https://github.com/krizss/leetcode/blob/master/2018/09/reverse-integer/main.go)
 3. [9. 回文数](https://github.com/krizss/leetcode/blob/master/2018/12/palindrome-number/main.go)

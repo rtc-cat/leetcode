@@ -58,20 +58,18 @@ type ListNode struct {
 func hasCycle(head *ListNode) bool {
 	// 两个指针,一个每次前进1,一个每次前进2
 	// 如果快=慢 并且 不是nil,说明有环
-	fast := head
-	slow := head
-	for slow != nil {
-		slow = slow.Next
-		if slow == nil {
-			return false
-		}
-		fast = slow.Next
-		if fast == nil {
-			return false
-		}
-		if slow == fast {
-			return true
-		}
+	if head == nil || head.Next == nil {
+		return false
 	}
-	return false
+	slow := head
+	fast := head.Next
+	for slow != fast {
+		// 快指针如果到达末尾,说明没有
+		if fast == nil || fast.Next == nil {
+			return false
+		}
+		slow = slow.Next
+		fast = fast.Next.Next
+	}
+	return true
 }
