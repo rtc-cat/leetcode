@@ -48,3 +48,4 @@
 44. [160. 相交链表](https://github.com/krizss/leetcode/blob/master/2019/05/intersection-of-two-linked-lists/main.go)
 45. [167. 两数之和 II - 输入有序数组](https://github.com/krizss/leetcode/blob/master/2019/05/two-sum-ii-input-array-is-sorted/main.go)
 46. [168. Excel表列名称](https://github.com/krizss/leetcode/blob/master/2019/05/excel-sheet-column-title/main.go)
+47. [169. 求众数](https://github.com/krizss/leetcode/blob/master/2019/05/majority-element/main.go)
