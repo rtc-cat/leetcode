@@ -59,3 +59,4 @@
 55. [190. 颠倒二进制位](https://github.com/krizss/leetcode/blob/master/2019/05/reverse-bits/main.go)
 56. [191. 位1的个数](https://github.com/krizss/leetcode/blob/master/2019/05/number-of-1-bits/main.go)
 57. [198. 打家劫舍](https://github.com/krizss/leetcode/blob/master/2019/05/house-robber/main.go)
+58. [202. 快乐数](https://github.com/krizss/leetcode/blob/master/2019/05/happy-number/main.go)
