@@ -61,3 +61,4 @@
 57. [198. 打家劫舍](https://github.com/krizss/leetcode/blob/master/2019/05/house-robber/main.go)
 58. [202. 快乐数](https://github.com/krizss/leetcode/blob/master/2019/05/happy-number/main.go)
 59. [203. 移除链表元素](https://github.com/krizss/leetcode/blob/master/2019/05/remove-linked-list-elements/main.go)
+60. [204. 计数质数](https://github.com/krizss/leetcode/blob/master/2019/05/count-primes/main.go)
