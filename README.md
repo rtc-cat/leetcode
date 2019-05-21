@@ -67,3 +67,4 @@
 63. [219. 存在重复元素 II](https://github.com/krizss/leetcode/blob/master/2019/05/contains-duplicate-ii/main.go)
 64. [225. 用队列实现栈](https://github.com/krizss/leetcode/blob/master/2019/05/implement-stack-using-queues/main.go)
 65. [226. 翻转二叉树](https://github.com/krizss/leetcode/blob/master/2019/05/invert-binary-tree/main.go)
+66. [232. 用栈实现队列](https://github.com/krizss/leetcode/blob/master/2019/05/implement-queue-using-stacks/main.go)
