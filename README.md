@@ -75,3 +75,4 @@
 71. [242. 有效的字母异位词](https://github.com/krizss/leetcode/blob/master/2019/05/valid-anagram/main.go)
 72. [257. 二叉树的所有路径](https://github.com/krizss/leetcode/blob/master/2019/05/binary-tree-paths/main.go)
 73. [258. 各位相加](https://github.com/krizss/leetcode/blob/master/2019/05/add-digits/main.go)
+74. [263. 丑数](https://github.com/krizss/leetcode/blob/master/2019/05/ugly-number/main.go)
