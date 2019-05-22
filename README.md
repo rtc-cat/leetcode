@@ -76,3 +76,4 @@
 72. [257. 二叉树的所有路径](https://github.com/krizss/leetcode/blob/master/2019/05/binary-tree-paths/main.go)
 73. [258. 各位相加](https://github.com/krizss/leetcode/blob/master/2019/05/add-digits/main.go)
 74. [263. 丑数](https://github.com/krizss/leetcode/blob/master/2019/05/ugly-number/main.go)
+75. [268. 缺失数字](https://github.com/krizss/leetcode/blob/master/2019/05/missing-number/main.go)
