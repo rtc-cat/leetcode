@@ -70,3 +70,4 @@
 66. [232. 用栈实现队列](https://github.com/krizss/leetcode/blob/master/2019/05/implement-queue-using-stacks/main.go)
 67. [344. 反转字符串](https://github.com/krizss/leetcode/blob/master/2019/05/reverse-string/main.go)
 68. [234. 回文链表](https://github.com/krizss/leetcode/blob/master/2019/05/palindrome-linked-list/main.go)
+69. [235. 二叉搜索树的最近公共祖先](https://github.com/krizss/leetcode/blob/master/2019/05/lowest-common-ancestor-of-a-binary-search-tree/main.go)
