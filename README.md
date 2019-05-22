@@ -72,3 +72,4 @@
 68. [234. 回文链表](https://github.com/krizss/leetcode/blob/master/2019/05/palindrome-linked-list/main.go)
 69. [235. 二叉搜索树的最近公共祖先](https://github.com/krizss/leetcode/blob/master/2019/05/lowest-common-ancestor-of-a-binary-search-tree/main.go)
 70. [237. 删除链表中的节点](https://github.com/krizss/leetcode/blob/master/2019/05/delete-node-in-a-linked-list/main.go)
+71. [242. 有效的字母异位词](https://github.com/krizss/leetcode/blob/master/2019/05/valid-anagram/main.go)
