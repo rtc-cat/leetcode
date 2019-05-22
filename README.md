@@ -79,3 +79,4 @@
 75. [268. 缺失数字](https://github.com/krizss/leetcode/blob/master/2019/05/missing-number/main.go)
 76. [278. 第一个错误的版本](https://github.com/krizss/leetcode/blob/master/2019/05/first-bad-version/main.go)
 77. [283. 移动零](https://github.com/krizss/leetcode/blob/master/2019/05/move-zeroes/main.go)
+78. [290. 单词规律](https://github.com/krizss/leetcode/blob/master/2019/05/word-pattern/main.go)
