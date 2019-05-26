@@ -82,3 +82,4 @@
 78. [290. 单词规律](https://github.com/krizss/leetcode/blob/master/2019/05/word-pattern/main.go)
 79. [292. Nim 游戏](https://github.com/krizss/leetcode/blob/master/2019/05/nim-game/main.go)
 80. [303. 区域和检索 - 数组不可变](https://github.com/krizss/leetcode/blob/master/2019/05/range-sum-query-immutable/main.go)
+81. [326. 3的幂](https://github.com/krizss/leetcode/blob/master/2019/05/power-of-three/main.go)
