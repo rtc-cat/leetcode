@@ -81,3 +81,4 @@
 77. [283. 移动零](https://github.com/krizss/leetcode/blob/master/2019/05/move-zeroes/main.go)
 78. [290. 单词规律](https://github.com/krizss/leetcode/blob/master/2019/05/word-pattern/main.go)
 79. [292. Nim 游戏](https://github.com/krizss/leetcode/blob/master/2019/05/nim-game/main.go)
+80. [303. 区域和检索 - 数组不可变](https://github.com/krizss/leetcode/blob/master/2019/05/range-sum-query-immutable/main.go)
