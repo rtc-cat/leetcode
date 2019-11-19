@@ -1,8 +1,6 @@
-package main
+package stack
 
-import (
-	"fmt"
-)
+import "testing"
 
 // https://leetcode-cn.com/problems/valid-parentheses/
 
@@ -35,8 +33,8 @@ import (
 // 输入: "{[]}"
 // 输出: true
 
-func main() {
-	fmt.Println(isValid(""))
+func TestValidParentheses(t *testing.T) {
+	t.Log(isValid("()[]{}"))
 }
 
 func isValid(s string) bool {
