@@ -3,7 +3,7 @@ package treeutil
 import (
 	"sort"
 
-	"github.com/krizss/leetcode/utils/arrayutil"
+	"github.com/krizss/leetcode/util/arrayutil"
 )
 
 // TreeNode 树节点
