@@ -52,7 +52,3 @@ func heapify(arr []int, length int, p int) {
 		p = maxPos
 	}
 }
-
-func heapSort(arr []int) {
-
-}
