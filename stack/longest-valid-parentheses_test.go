@@ -86,8 +86,8 @@ func longestValidParenthesesWithStack(s string) int {
 			if stack.Empty() {
 				stack.Push(i)
 			} else {
-				if max < i-stack.Peek() {
-					max = i - stack.Peek()
+				if max < i-stack.Peek().(int) {
+					max = i - stack.Peek().(int)
 				}
 			}
 		}
