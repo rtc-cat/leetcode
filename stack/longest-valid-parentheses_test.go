@@ -1,6 +1,9 @@
 package stack
 
-import "testing"
+import (
+	ds "github.com/krizss/leetcode/datastructure"
+	"testing"
+)
 
 // 给定一个只包含 '(' 和 ')' 的字符串，找出最长的包含有效括号的子串的长度。
 
@@ -66,6 +69,27 @@ func longestValidParentheses(s string) int {
 		}
 		if dp[i] > max {
 			max = dp[i]
+		}
+	}
+	return max
+}
+
+func longestValidParenthesesWithStack(s string) int {
+	stack := &ds.Stack{}
+	var max int
+	stack.Push(-1)
+	for i := 0; i < len(s); i++ {
+		if s[i] == '(' {
+			stack.Push(i)
+		} else {
+			stack.Pop()
+			if stack.Empty() {
+				stack.Push(i)
+			} else {
+				if max < i-stack.Peek() {
+					max = i - stack.Peek()
+				}
+			}
 		}
 	}
 	return max
