@@ -1,4 +1,4 @@
-package recursion
+package graph
 
 import "testing"
 
