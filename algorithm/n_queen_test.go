@@ -1,4 +1,4 @@
-package backtracking
+package algorithm
 
 import "testing"
 
