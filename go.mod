@@ -1,3 +1,3 @@
-module github.com/krizss/leetcode
+module github.com/krizsx/leetcode
 
 go 1.13
