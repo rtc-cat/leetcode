@@ -9,11 +9,11 @@
  * 
  */
 #include <iostream>
+#include <vector>
 using namespace std;
 
-class Solution
-{
-public:
+class Solution {
+   public:
     /**
      * @brief 处理字符串
      *  1.从 s 中选出 最小 的字符，将它 接在 结果字符串的后面。
@@ -27,33 +27,32 @@ public:
      * @param s 
      * @return string 
      */
-    string sortString(string s)
-    {
-        string result;
-        for (;;)
-        {
-            //第一步
-            char min = s[0];
-            for (int i = 0; i < s.size(); i++)
-            {
-                if (s[i] < min)
-                {
-                    min = s[i];
+    string sortString(string s) {
+        vector<int> num(26);
+        for (char &ch : s) {
+            num[ch - 'a']++;
+        }
+
+        string ret;
+        while (ret.length() < s.length()) {
+            for (int i = 0; i < 26; i++) {
+                if (num[i]) {
+                    ret.push_back(i + 'a');
+                    num[i]--;
                 }
             }
-            result += min;
-            char left_min;
-            for (int i = 0; i < s.size(); i++)
-            {
+            for (int i = 25; i >= 0; i--) {
+                if (num[i]) {
+                    ret.push_back(i + 'a');
+                    num[i]--;
+                }
             }
-            // result.push_back(min);
         }
-        return result;
+        return ret;
     }
 };
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     auto solution = new Solution();
     auto result = solution->sortString("");
     cout << "result:" << result << endl;
