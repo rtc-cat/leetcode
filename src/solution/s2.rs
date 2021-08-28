@@ -1,4 +1,4 @@
-use super::common::*;
+use super::linked_list::*;
 #[allow(dead_code)]
 struct Solution {}
 
