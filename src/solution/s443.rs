@@ -4,6 +4,7 @@ struct Solution {}
 impl Solution {
     #[allow(dead_code)]
     fn compress(chars: &mut Vec<char>) -> i32 {
+        // TODO 未完成
         if chars.len() == 1 {
             return 1;
         }
