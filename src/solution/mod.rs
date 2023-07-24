@@ -9,5 +9,6 @@ mod s443;
 mod s528;
 mod s68;
 mod s704;
+mod s771;
 mod s860;
 mod s881;
