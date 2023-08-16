@@ -13,6 +13,7 @@ mod s27;
 mod s295;
 mod s443;
 mod s528;
+mod s55;
 mod s68;
 mod s704;
 mod s771;
