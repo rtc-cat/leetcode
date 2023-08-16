@@ -2,6 +2,7 @@ mod heap;
 mod linked_list;
 mod s1;
 mod s1109;
+mod s121;
 mod s1480;
 mod s169;
 mod s189;
