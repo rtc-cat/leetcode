@@ -12,6 +12,7 @@ mod s528;
 mod s68;
 mod s704;
 mod s771;
+mod s80;
 mod s860;
 mod s88;
 mod s881;
