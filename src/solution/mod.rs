@@ -4,6 +4,7 @@ mod s1;
 mod s1109;
 mod s1480;
 mod s2;
+mod s26;
 mod s27;
 mod s295;
 mod s443;
