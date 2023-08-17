@@ -12,6 +12,7 @@ mod s26;
 mod s27;
 mod s295;
 mod s443;
+mod s45;
 mod s528;
 mod s55;
 mod s68;
