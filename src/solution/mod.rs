@@ -12,6 +12,7 @@ mod s134;
 mod s135;
 mod s14;
 mod s1480;
+mod s15;
 mod s151;
 mod s167;
 mod s169;
