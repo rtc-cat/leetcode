@@ -26,6 +26,7 @@ mod s274;
 mod s28;
 mod s295;
 mod s3;
+mod s36;
 mod s380;
 mod s392;
 mod s42;
