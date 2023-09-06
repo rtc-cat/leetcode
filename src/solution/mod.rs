@@ -33,6 +33,7 @@ mod s42;
 mod s443;
 mod s45;
 mod s528;
+mod s54;
 mod s55;
 mod s58;
 mod s6;
