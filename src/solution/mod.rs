@@ -38,6 +38,7 @@ mod s42;
 mod s443;
 mod s45;
 mod s48;
+mod s49;
 mod s528;
 mod s54;
 mod s55;
@@ -52,3 +53,13 @@ mod s80;
 mod s860;
 mod s88;
 mod s881;
+
+#[macro_export]
+macro_rules! vec_of_strings {
+    // match a list of expressions separated by comma:
+    ($($str:expr),*) => ({
+        // create a Vec with this list of expressions,
+        // calling String::from on each:
+        vec![$(String::from($str),)*] as Vec<String>
+    });
+}
