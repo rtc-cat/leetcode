@@ -47,6 +47,7 @@ mod s528;
 mod s54;
 mod s55;
 mod s56;
+mod s57;
 mod s58;
 mod s6;
 mod s68;
