@@ -41,6 +41,7 @@ mod s392;
 mod s42;
 mod s443;
 mod s45;
+mod s452;
 mod s48;
 mod s49;
 mod s528;
