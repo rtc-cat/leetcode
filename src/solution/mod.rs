@@ -19,6 +19,7 @@ mod s167;
 mod s169;
 mod s189;
 mod s2;
+mod s20;
 mod s202;
 mod s205;
 mod s209;
@@ -53,6 +54,7 @@ mod s58;
 mod s6;
 mod s68;
 mod s704;
+mod s71;
 mod s73;
 mod s76;
 mod s771;
@@ -60,7 +62,6 @@ mod s80;
 mod s860;
 mod s88;
 mod s881;
-mod s20;
 
 #[macro_export]
 macro_rules! vec_of_strings {
